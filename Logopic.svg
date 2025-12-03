@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <!-- Left reel (inverted) -->
+  <circle cx="120" cy="80" r="60" fill="white"/>
+  <circle cx="120" cy="80" r="35" fill="#121212"/>
+  
+  <!-- Right reel (inverted) -->
+  <circle cx="280" cy="80" r="60" fill="white"/>
+  <circle cx="280" cy="80" r="35" fill="#121212"/>
+  
+  <!-- Camera body (inverted) -->
+  <rect x="80" y="160" width="240" height="140" rx="20" fill="white"/>
+  
+  <!-- Film strip on right side (inverted) -->
+  <rect x="340" y="160" width="80" height="140" rx="10" fill="white"/>
+  <rect x="355" y="180" width="15" height="20" fill="#121212"/>
+  <rect x="375" y="180" width="15" height="20" fill="#121212"/>
+  <rect x="395" y="180" width="15" height="20" fill="#121212"/>
+  <rect x="355" y="215" width="15" height="20" fill="#121212"/>
+  <rect x="375" y="215" width="15" height="20" fill="#121212"/>
+  <rect x="395" y="215" width="15" height="20" fill="#121212"/>
+  <rect x="355" y="250" width="15" height="20" fill="#121212"/>
+  <rect x="375" y="250" width="15" height="20" fill="#121212"/>
+  <rect x="395" y="250" width="15" height="20" fill="#121212"/>
+  
+  <!-- Tripod left leg (inverted) -->
+  <line x1="140" y1="310" x2="60" y2="420" stroke="white" stroke-width="25" stroke-linecap="round"/>
+  
+  <!-- Tripod right leg (inverted) -->
+  <line x1="260" y1="310" x2="340" y2="420" stroke="white" stroke-width="25" stroke-linecap="round"/>
+  
+  <!-- Tripod center leg (inverted) -->
+  <line x1="200" y1="310" x2="200" y2="420" stroke="white" stroke-width="25" stroke-linecap="round"/>
+</svg>

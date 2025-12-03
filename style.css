@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    padding: 15px 25px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.logo {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px
+}
+/* VIDEO GRID */
+.video-grid {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+}
+
+.video-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    display: block;
+}
+
+.video-card:hover {
+    transform: scale(1.03);
+}
+
+.thumb {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-title {
+    font-size: 15px;
+    margin-top: 10px;
+}
+body, html {
+    overflow-x: hidden;
+}
+
+.logopic {
+    width: 30px;        
+    height: auto;
+    filter: invert(1);
+    transition: filter 0.3s;
+}
+
+.dark-mode .logopic {
+    filter: invert(0);
+}
+
+/* DARK MODE TOGGLE BUTTON */
+.dark-toggle {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 2px solid #333333;
+    cursor: pointer;
+    background: white;
+    color: #333333;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: 50px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.dark-toggle:hover {
+    background: #333333;
+    color: white;
+    transform: scale(1.05);
+}
+
+.dark-mode .dark-toggle {
+    background: #333333;
+    color: white;
+    border-color: #e0e0e0;
+}
+
+.dark-mode .dark-toggle:hover {
+    background: #e0e0e0;
+    color: #333333;
+    border-color: #333333;
+}
+
+/* DARK MODE THEME */
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .header {
+    background: #1d1d1d;
+    border-bottom: 1px solid #333;
+}
+
+.dark-mode .video-card {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .video-card:hover {
+    transform: scale(1.03);
+}
+
+.dark-mode .video-title {
+    color: #ffffff;
+}
+
